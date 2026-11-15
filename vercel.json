@@ -1,0 +1,60 @@
+{
+  "rewrites": [
+    {
+      "source": "/plano2027",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/marketing-digital",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/sites",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/videos",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/eventos",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/metogiologia",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/contato",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/plano2027/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/marketing-digital/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/sites/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/videos/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/eventos/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/metogiologia/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/contato/",
+      "destination": "/index.html"
+    }
+  ]
+}
