@@ -2,59 +2,83 @@
   "rewrites": [
     {
       "source": "/plano2027",
-      "destination": "/index.html"
+      "destination": "/plano2027.html"
+    },
+    {
+      "source": "/plano2027/",
+      "destination": "/plano2027.html"
     },
     {
       "source": "/marketing-digital",
-      "destination": "/index.html"
+      "destination": "/marketing-digital.html"
+    },
+    {
+      "source": "/marketing-digital/",
+      "destination": "/marketing-digital.html"
     },
     {
       "source": "/sites",
-      "destination": "/index.html"
+      "destination": "/sites.html"
+    },
+    {
+      "source": "/sites/",
+      "destination": "/sites.html"
     },
     {
       "source": "/videos",
-      "destination": "/index.html"
+      "destination": "/videos.html"
+    },
+    {
+      "source": "/videos/",
+      "destination": "/videos.html"
     },
     {
       "source": "/eventos",
-      "destination": "/index.html"
+      "destination": "/eventos.html"
+    },
+    {
+      "source": "/eventos/",
+      "destination": "/eventos.html"
     },
     {
       "source": "/metogiologia",
-      "destination": "/index.html"
+      "destination": "/metogiologia.html"
+    },
+    {
+      "source": "/metogiologia/",
+      "destination": "/metogiologia.html"
     },
     {
       "source": "/contato",
       "destination": "/index.html"
     },
     {
-      "source": "/plano2027/",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/marketing-digital/",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/sites/",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/videos/",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/eventos/",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/metogiologia/",
-      "destination": "/index.html"
-    },
-    {
       "source": "/contato/",
       "destination": "/index.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "metogiologia.com.br"
+        }
+      ],
+      "destination": "https://glfcomunicacaoemarketing.com.br/metogiologia",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.metogiologia.com.br"
+        }
+      ],
+      "destination": "https://glfcomunicacaoemarketing.com.br/metogiologia",
+      "permanent": true
     }
   ]
 }
